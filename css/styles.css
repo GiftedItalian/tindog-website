@@ -1,0 +1,187 @@
+/*---- Global ---*/
+
+body {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+.coloured-section {
+    background-color: #ff4c68;
+}
+
+/* Title Section */
+.container-fluid {
+    padding: 3% 15%;
+}
+
+#title {
+    color: #fff;
+    padding-bottom: 7%;
+}
+
+.big-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.download-button i {
+    padding: 5px;
+}
+
+.title-image {
+    width: 22rem;
+    transform: rotate(25deg);
+    padding: 40px 0px;
+    position: absolute;
+    left: 10%;
+}
+
+/* navigation bar */
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+/* Features */
+#features {
+    padding: 7% 15%;
+    position: relative;
+}
+
+#features .fas {
+    color: #ef8172;
+    font-size: 3.2rem;
+}
+
+.fas:hover {
+    color: #ff4c68;
+}
+
+.features-column {
+    padding: 2.5rem;
+}
+
+.features-title{
+    font-size: 1.5rem;
+}
+
+/* Testimonial */
+#testimonials {
+    color: #fff;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* Press */
+#press {
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing */
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* CTA */
+#cta {
+    color: #fff;
+    padding: 10% 15%;
+}
+
+/* footer */
+#footer {
+    padding: 5% 10%;
+}
+
+#footer .fas,
+#footer .fab {
+    padding: 20px 10px;
+}
+
+
+/* Responsive Code */
+@media (max-width: 991px) {
+    #title {
+        padding-bottom: 0;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0deg);
+    }
+
+    .title-column-image {
+        text-align: center;
+    }
+}
